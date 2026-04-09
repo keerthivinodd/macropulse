@@ -1,0 +1,51 @@
+{
+  "demo-in-001": {
+    "tenant_id": "demo-in-001",
+    "company_name": "Fidelis Demo Manufacturing",
+    "primary_region": "IN",
+    "primary_currency": "INR",
+    "debt": {
+      "total_loan_amount_cr": 100,
+      "rate_type": "Floating",
+      "current_effective_rate_pct": 9.5,
+      "floating_proportion_pct": 65,
+      "short_term_debt_cr": 30,
+      "long_term_debt_cr": 70
+    },
+    "fx": {
+      "net_usd_exposure_m": 45,
+      "net_aed_exposure_m": 10,
+      "net_sar_exposure_m": 5,
+      "hedge_ratio_pct": 65,
+      "hedge_instrument": "Forward"
+    },
+    "cogs": {
+      "total_cogs_cr": 100,
+      "steel_pct": 20,
+      "petroleum_pct": 30,
+      "electronics_pct": 15,
+      "freight_pct": 10,
+      "other_pct": 25
+    },
+    "portfolio": {
+      "gsec_holdings_cr": 50,
+      "modified_duration": 4
+    },
+    "logistics": {
+      "primary_routes": [
+        "Mumbai-Dubai",
+        "Chennai-Jebel Ali"
+      ],
+      "monthly_shipment_value_cr": 10,
+      "inventory_buffer_days": 30
+    },
+    "notification_config": {
+      "email": "cfo@fidelis-demo.com",
+      "channels": [
+        "email"
+      ]
+    },
+    "created_at": "2026-04-06T07:37:17.627Z",
+    "updated_at": "2026-04-06T07:37:17.627Z"
+  }
+}
